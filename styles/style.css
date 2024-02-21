@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items:start;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+div.nav{
+    position: fixed;
+    background-color: rgb(41, 41, 41);
+    width: 100%;
+    
+}
+
+.Projects{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+.Projects img{
+    width: 20em;
+    height: 20em;
+    display: block;
+    margin: 2em;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0);
+}
+
+.Resume{
+    display: flex;
+    padding: 2em 0;
+    max-width: 100%;
+    height:auto
+}
+
+.Resume img{
+    
+    object-fit: cover;
+    overflow: hidden;
+}
+.About-Me {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    flex-wrap: wrap;
+    align-items: center;
+    height: auto;
+    margin: 1em 0 0 0;
+}
+
+
+.About-Me img{
+    box-shadow: 5px 5px 15px rgb(0, 0, 0);
+    border-radius: 5%;
+}
+
+.About-Me p{
+    font-size: large;
+    max-width: 60%;
+}
+
+.About-Me img {
+    width: 38%; /* Adjust based on layout needs */
+    height: 100%; /* Adjust the height to a smaller value as needed */
+
+
+}
+
+footer{
+    background-color: black;
+    padding: 2em;
+}
+
+.Contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.Contact li{
+    list-style-type: none;
+}
+
+.Contact h4{
+    display: inline;
+}
